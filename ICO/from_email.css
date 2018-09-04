@@ -1,0 +1,85 @@
+.navbar{
+	 background-color: rgb(21,10,52);
+	 display: flex;		
+	 width: 100%;
+	 font-family: 'Quicksand', sans-serif;
+	 color: white;	 
+justify-content: flex-start;
+align-items: center;
+}
+
+header{
+	padding-top: 25px;
+	padding-bottom: 25px;
+color: white ;
+font-family: 'Quicksand', sans-serif;
+text-align: center;
+
+	 border-top: 1px;
+	 border-bottom: 1px;
+	 border-left: 0px;
+	 border-right: 0px;
+	 	 border-color: gold;
+	 border-style: solid;
+}
+body{
+	background-color: rgb(21,10,52);
+	color: white;
+}
+
+form{
+	padding: 50px;
+	background-image: url(../Logo/Logo_with_name_under.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: right;
+
+
+}
+.form-group{
+	max-width: 300px;
+	padding: 10px;
+
+}
+
+#accordion{
+	max-width: 1000px;
+	 margin: auto;
+	 padding: 80px 0 80px 0 ;
+}
+.Buy{
+	color: black;
+	background-color: gray;
+	padding-bottom: 1px;
+	border-bottom-color: gold !important;
+	border-bottom: solid;
+	border-bottom-width: 1px;
+
+}
+
+ul{
+	list-style: none;
+	padding-left: 0px;
+}
+li{
+	padding-top: 10px;
+	padding-bottom: 0px;
+}
+
+label{
+	margin-bottom: 0px;
+	text-align: left !important;
+	margin-top: 10px;
+	padding-left: 40% !important;
+	padding-right: 40% !important;
+}
+
+.stkn_wallet_address{
+	
+	text-align: center;
+	display: flex;
+	justify-content: center;	
+}
+#stkn_wallet_input{
+width: 90%;
+}
